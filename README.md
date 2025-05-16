@@ -7,7 +7,7 @@
 
 ## About Audio Turing Test (ATT)
 
-ATT is an evaluation framework with a standardized human evaluation protocol and an accompanying dataset, aiming to resolve the lack of unified protocols in TTS evaluation and the difficulty in comparing multiple TTS systems. To further support the training and iteration of TTS systems, we utilized additional private evaluation data to train [Auto-ATT](https://huggingface.co/AudioTuring/Auto-ATT) model based on Qwen2-Audio-7B, enabling a model-as-a-judge approach for rapid evaluation of TTS systems on the ATT dataset. The datasets and Auto-ATT model can be cound in [ATT Collection](https://huggingface.co/collections/AudioTuring/audio-turing-test-6826e24d2197bf91fae6d7f5).
+ATT is an evaluation framework with a standardized human evaluation protocol and an accompanying dataset, aiming to resolve the lack of unified protocols in TTS evaluation and the difficulty in comparing multiple TTS systems. To further support the training and iteration of TTS systems, we utilized additional private evaluation data to train [Auto-ATT](https://huggingface.co/Meituan/Auto-ATT) model based on Qwen2-Audio-7B, enabling a model-as-a-judge approach for rapid evaluation of TTS systems on the ATT dataset. The datasets and Auto-ATT model can be cound in [ATT Collection](https://huggingface.co/collections/meituan/audio-turing-test-682446320368164faeaf38a4).
 
 
 ## Installation
@@ -42,7 +42,7 @@ pip install loguru
 
 ## Usage
 
-1. Download [Auto-ATT](https://huggingface.co/AudioTuring/Auto-ATT) weights.
+1. Download [Auto-ATT](https://huggingface.co/Meituan/Auto-ATT) weights.
 2. We provide [inference code](https://github.com/AudioTuring/Auto-ATT-Inference/blob/main/inference.py) for evaluation.
 
 ```bash
@@ -66,7 +66,7 @@ options:
 
 
 ## Datasets & Benchmarks
-See [ATT Collection](https://huggingface.co/collections/AudioTuring/audio-turing-test-6826e24d2197bf91fae6d7f5).
+See [ATT Collection](https://huggingface.co/collections/meituan/audio-turing-test-682446320368164faeaf38a4).
 
 
 
